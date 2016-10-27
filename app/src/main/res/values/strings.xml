@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloOptionMenu</string>
+    <string name="add">Option Item ADD is selected.</string>
+    <string name="sub">Option Item SUB is selected.</string>
+</resources>
