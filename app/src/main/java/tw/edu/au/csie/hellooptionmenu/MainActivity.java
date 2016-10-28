@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
             case R.id.item_add:
+                // Referring string resources (ex. R.string.add) instead of hard coding string
+                // String resources are located at res/values/strings.xml
                 Toast.makeText(this, R.string.add, Toast.LENGTH_SHORT).show();
                 break;
 
